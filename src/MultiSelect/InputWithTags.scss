@@ -74,6 +74,7 @@
 
 .hasFocus {
   border-color: $B20;
+  background-color: unset !important;
 
   @include FocusBox;
 

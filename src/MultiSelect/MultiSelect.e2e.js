@@ -17,6 +17,7 @@ describe('MultiSelect', () => {
       .then(async () => {
         await browser.actions().sendKeys(protractor.Key.TAB).perform();
         await browser.actions().sendKeys(protractor.Key.TAB).perform();
+        await browser.actions().mouseMove(driver.element());
         // Should be in focus now
       });
   });

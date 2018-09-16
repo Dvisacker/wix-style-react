@@ -31,6 +31,7 @@ Types of changes:
 - `<SectionHelper/>` - add box-sizing to not break styles [#2202](https://github.com/wix/wix-style-react/pull/2202)
 - `<Tooltip/>` - fix tooltip jumping [#2225](https://github.com/wix/wix-style-react/pull/2225)
 - `<ButtonLayout/>` - remove border from button focus [#2234](https://github.com/wix/wix-style-react/pull/2234)
+- `<InputWithTags/>` - fix focus background color
 
 ### Changed
 - `<ButtonLayout/>` - update typography [#2198](https://github.com/wix/wix-style-react/pull/2198)
