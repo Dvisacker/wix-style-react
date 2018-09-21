@@ -396,9 +396,8 @@ class Tooltip extends WixComponent {
     this._hideOrShow('focus');
   }
 
-  _onClick(event) {
+  _onClick() {
     this._hideOrShow('click');
-    event.stopPropagation();
   }
 
   _onMouseEnter() {
